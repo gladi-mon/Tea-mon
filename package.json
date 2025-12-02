@@ -1,0 +1,22 @@
+{
+  "name": "discord-allrounder-bot",
+  "version": "1.0.0",
+  "description": "Comprehensive Discord bot with management, music, games, currency, and ticket system",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "@discord-player/extractor": "^4.5.1",
+    "discord-player": "^6.7.1",
+    "discord-player-youtubei": "^1.5.0",
+    "discord.js": "^14.25.1",
+    "dotenv": "^16.6.1",
+    "mediaplex": "^1.0.0",
+    "play-dl": "^1.9.7",
+    "youtubei.js": "^16.0.1"
+  }
+}
